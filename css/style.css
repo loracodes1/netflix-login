@@ -18,10 +18,26 @@
     padding-top: 20px; 
     padding-bottom: 20px; 
     margin-top: 15%;
+    color: #ffffff;
+    text
     
 }
+
 .frm{
     display: flex;
     flex-direction: column;
     
+}
+img.logo{
+    width: 250px;
+    height: "auto" ;
+    position: absolute;
+    right: 0px;
+}
+
+.nav{
+    position: relative;
+}
+p{
+
 }
