@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  height: 100vh;
+    background-image: url("../images/netlix login.jpg"); 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: rgba(10, 9, 9, 0.678);
+    /* height:fit-content ;  */
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin-top: 15%;
+    
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    
+}
