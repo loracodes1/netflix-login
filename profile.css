@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    background-color: rgb(29, 27, 27)
+    height: 100;
+ }
+ .container h2{
+    color: white;
+ }
+ .profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .profiles-details img{
+    height: 250px;
+    width: 250px;
+ }
+ 
