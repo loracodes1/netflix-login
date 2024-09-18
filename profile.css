@@ -1,21 +1,70 @@
 *{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
- .container{
-    background-color: rgb(29, 27, 27)
-    height: 100;
- }
- .container h2{
-    color: white;
- }
- .profiles{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .profiles-details img{
-    height: 250px;
-    width: 250px;
- }
- 
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: rgba(3, 3, 3, 0.89);
+   height: 100vh;
+}
+.container h2{
+   color: white;
+   font-size: 30px;
+   font-weight: 500;
+   margin-bottom: 50px;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.profile-container{
+   display: flex;
+   gap: 20px;
+   margin-bottom: 80px;
+}
+.profile-details{
+   cursor: pointer;
+}
+.profile-details img{
+   height: 120px;
+   width: 120px;
+   border-radius: 5px;
+}
+.profile-details p{
+   color: gray;
+   text-align: center;
+   margin-top: 10px;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.profile-details i{
+   font-size: 100px;
+   color: gray;
+   padding: 10px;
+   border-radius: 5px;
+}
+.profile-details:hover img{
+   border: 2px solid white;
+}
+.profile-details:hover p{
+   color: white;
+}
+#add-profile:hover i{
+   background: rgb(227, 225, 225);
+   border: none;
+}
+.container button{
+   background: rgba(3, 3, 3, 0.174);
+   border: 1px solid  gray;
+   color: gray;
+   height: 40px;
+   width: 150px;
+   padding: 5px 15px;
+   cursor: pointer;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-size: 13px;
+}
+.container button:hover{
+   border: 1px solid white;
+   color: white;
+}
